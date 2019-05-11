@@ -7,7 +7,7 @@ Here we go!
 2. Edit your smokeping_secrets file on the master and reload it.
 3. Edit and run this on your docker host.
 ```
-docker run -d --rm nullr0ute/docker-smokeping-slave --hostname myawesomeslave -e "secret=lamesecret" -e "master=https://my.docker.host/cgi-bin/smokeping.cgi"
+docker run -d nbouwhuis/docker-smokeping-slave --hostname myawesomeslave -e "secret=lamesecret" -e "master=https://my.docker.host/cgi-bin/smokeping.cgi"
 ```
 4. ???
 5. Profit!
